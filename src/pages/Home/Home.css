@@ -16,6 +16,8 @@
 .blog:hover {
   border: 1px border #5c5b5b;
   color: red;
+  /* background-color: #0c0b0b;
+  border-radius: 20px; */
 }
 .blog-publication-date {
   font-style: italic;

@@ -11,12 +11,12 @@ const NavBar = () => {
       </div>
       <ul className="liens">
         <li>
-          <a ActiveClassName="active" className="lien" href="#hh">
+          <a className="lien " href="#hh">
             Accueil
           </a>
         </li>
         <li>
-          <a ActiveClassName="active" className="lien active" href="#m">
+          <a className="lien active" href="#m">
             Creer un Article
           </a>
         </li>
