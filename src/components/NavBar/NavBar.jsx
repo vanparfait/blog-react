@@ -1,24 +1,25 @@
 import React from "react";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <nav className="navbar">
       <div>
-        <a className="logo" href="yyS">
+        <Link className="logo" to="/">
           NGUEMECHIA Blog
-        </a>
+        </Link>
       </div>
       <ul className="liens">
         <li>
-          <a className="lien " href="#hh">
+          <Link className="lien " to="/">
             Accueil
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="lien active" href="#m">
+          <Link className="lien active" to="/ajout">
             Creer un Article
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

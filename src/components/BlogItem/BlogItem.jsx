@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogItem = ({ blog, handleDelete }) => {
   return (
     <div className="blog">
-      <a href="/" className="blog-titre">
+      <Link to={`blogs/${blog.id}`} className="blog-titre">
         {blog.title}
-      </a>
+      </Link>
       <p className="blog-publication-date">Publier le {blog.date} </p>
       <p className="blog-author">Publier par {blog.author} </p>
       {/* <button onClick={() => handleDelete(blog.id)}>
