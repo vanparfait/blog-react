@@ -8,9 +8,9 @@ const BlogItem = ({ blog, handleDelete }) => {
       </a>
       <p className="blog-publication-date">Publier le {blog.date} </p>
       <p className="blog-author">Publier par {blog.author} </p>
-      <button onClick={() => handleDelete(blog.id)}>
+      {/* <button onClick={() => handleDelete(blog.id)}>
         Supprimer un article
-      </button>
+      </button> */}
     </div>
   );
 };

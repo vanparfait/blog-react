@@ -1,0 +1,19 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Bienvenue a mon site",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, autem",
+            "author": "Parfait",
+            "date": "02/01/2009"
+          },
+          {
+            "id": 2,
+            "title": "La nuit des couteaux",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, autem",
+            "author": "Marco",
+            "date": "02/01/2012"
+          }
+          
+    ]
+}
