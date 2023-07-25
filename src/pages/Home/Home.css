@@ -1,0 +1,39 @@
+/* Style pour le contenu de la page */
+.contenu {
+  width: 760px;
+  margin: 0 auto;
+}
+.bloglist {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.blog {
+  text-align: left;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.blog:hover {
+  border: 1px border #5c5b5b;
+  color: red;
+}
+.blog-publication-date {
+  font-style: italic;
+  color: #5c5b5b;
+}
+.blog-titre {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #028bfc;
+}
+.blog-body {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #333;
+}
+.blog-author {
+  font-style: italic;
+  color: #5c5b5b;
+  font-size: 1rem;
+  font-weight: bold;
+}
